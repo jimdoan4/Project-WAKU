@@ -163,6 +163,21 @@ sup {
   vertical-align: super;
 }
 
+.plans {
+  margin-bottom: 20px;
+  border: 2px solid #dbdbdb;
+  /* margin: 2px; */
+}
+.logo {
+  width: 150px!important;
+  height: 150px!important;
+}
+
+.plans:hover {
+ background: #a8a5a5;
+ color: white;
+  /* margin: 2px; */
+}
 p a,
 h5 a {
   font-weight: bold;
@@ -618,7 +633,7 @@ footer .container-fluid .copyright-area p a {
 @media only screen and (max-width: 414px) {
   #header #header-container {
     padding: 50px;
-    background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2');
+    /* background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -627,11 +642,33 @@ footer .container-fluid .copyright-area p a {
     height: 480px;
   }
 
+  .logo {
+    width: 80px!important;
+    height: 80px!important;
+    margin-top: -70px;
+   margin-left: 110px!important;
+  }
+
+  .logos {
+    width: 150px!important;
+    height: 150px!important;
+    margin-top: 50px;
+   margin-left: 120px!important;
+  }
+
   .faqs {
     width: 50px;
   }
+  .contacts {
+    margin-top: 60px;
+  }
   .orders {
-    margin-top: 20px;
+    margin-top: 60px;
+  }
+
+  .plans {
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
   }
 
   .ordering {
