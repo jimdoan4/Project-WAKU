@@ -158,27 +158,6 @@ a:hover {
   text-decoration: none;
 }
 
-sup {
-  font-size: xx-small;
-  vertical-align: super;
-}
-
-.plans {
-  margin-bottom: 20px;
-  border: 2px solid #dbdbdb;
-  /* margin: 2px; */
-}
-
-.logo {
-  width: 150px !important;
-  height: 150px !important;
-}
-
-.plans:hover {
-  background: #a8a5a5;
-  color: white;
-}
-
 p a,
 h5 a {
   font-weight: bold;
@@ -286,6 +265,11 @@ h5 {
   text-align: center;
 }
 
+.logo {
+  width: 150px !important;
+  height: 150px !important;
+}
+
 /**************************** HEADER ***************************/
 #header {
   overflow-x: hidden;
@@ -293,10 +277,12 @@ h5 {
 
 .skill:hover {
   background: #72dbc9;
+  width: 177px;
 }
 
 .skill img {
   margin-top: 10px;
+  padding-right: 10px;
 }
 
 #header #header-container {
@@ -365,55 +351,45 @@ h5 {
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
 
-.about-me h4 {
-  font-family: "muse-500", Arial, sans-serif;
-  color: #61c0bd;
-  font-weight: bold;
-}
-
-.about-me {
-  font-family: "muse-500", Arial, sans-serif;
-  color: black;
-}
 
 /********************************* EVENT/ABOUT ***********************************/
-#event {
-  padding: 50px 0;
+#main-section {
+  padding: 20px 0;
   font-family: "muse-500", Arial, sans-serif;
 }
 
-#event .container .row .col-md-4 .card a img {
+#main-section .container .row .col-md-4 .card a img {
   opacity: 0.7;
   height: 200px;
 }
 
-#event .container .row .col-md-4 .card a img:hover {
+#main-section .container .row .col-md-4 .card a img:hover {
   opacity: 1;
   transition: all 0.7s ease-out;
 }
 
-#event .container .row .col-md-4 .card .card-text {
+#main-section .container .row .col-md-4 .card .card-text {
   line-height: 1.3;
 }
 
-#event .main-page-title {
+#main-section .main-page-title {
   font-weight: bold;
   text-decoration: underline;
   font-size: 22px;
 }
 
-#event .main-page-subtitle {
+#main-section .main-page-subtitle {
   font-size: 24px;
   letter-spacing: 1px;
   text-align: left;
 }
 
-#event h4 {
+#main-section h4 {
   font-size: 18px;
   margin: 30px;
 }
 
-#event .subtitle {
+#main-section .subtitle {
   font-weight: bold;
   text-decoration: underline;
 }
@@ -428,13 +404,207 @@ h5 {
   margin-bottom: 20px;
 }
 
+
+/********************************* ABOUT SECTION ***********************************/
+#about-section {
+  padding: 20px 0;
+  font-family: "muse-500", Arial, sans-serif;
+}
+
+#about-section .container .row .col-md-4 .card a img {
+  opacity: 0.7;
+  height: 200px;
+}
+
+#about-section .container .row .col-md-4 .card a img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+#about-section .container .row .col-md-4 .card .card-text {
+  line-height: 1.3;
+}
+
+#about-section .main-page-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#about-section .main-page-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#about-section h4 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+#about-section .subtitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-me h4 {
+  font-family: "muse-500", Arial, sans-serif;
+  color: #61c0bd;
+  font-weight: bold;
+}
+
+.about-me {
+  font-family: "muse-500", Arial, sans-serif;
+  color: black;
+}
+
 .social i {
   font-size: 55px;
   color: #72dbc9;
   margin: 8px;
 }
 
-/**************************** CONTACT ***************************/
+
+/********************************* PLANS SECTION ***********************************/
+#plans-section {
+  padding: 20px 0;
+  font-family: "muse-500", Arial, sans-serif;
+}
+
+#plans-section .container .row .col-md-4 .card a img {
+  opacity: 0.7;
+  height: 200px;
+}
+
+#plans-section .container .row .col-md-4 .card a img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+#plans-section .container .row .col-md-4 .card .card-text {
+  line-height: 1.3;
+}
+
+#plans-section .main-page-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#plans-section .main-page-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#plans-section h4 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+#plans-section .subtitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.plans {
+  margin-bottom: 20px;
+  border: 2px solid #dbdbdb;
+
+}
+
+.plans:hover {
+  background: #a8a5a5;
+  color: white;
+}
+
+/********************************* MENU SECTION ***********************************/
+#menu-section {
+  padding: 20px 0;
+  font-family: "muse-500", Arial, sans-serif;
+}
+
+#menu-section .container .row .col-md-4 .card a img {
+  opacity: 0.7;
+  height: 200px;
+}
+
+#menu-section .container .row .col-md-4 .card a img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+#menu-section .container .row .col-md-4 .card .card-text {
+  line-height: 1.3;
+}
+
+#menu-section .main-page-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#menu-section .main-page-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#menu-section h4 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+#about-section .subtitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/********************************* FAQS SECTION ***********************************/
+#faqs-section {
+  padding: 20px 0;
+  font-family: "muse-500", Arial, sans-serif;
+}
+
+#faqs-section .container .row .col-md-4 .card a img {
+  opacity: 0.7;
+  height: 200px;
+}
+
+#faqs-section .container .row .col-md-4 .card a img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+#faqs-section .container .row .col-md-4 .card .card-text {
+  line-height: 1.3;
+}
+
+#faqs-section .main-page-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#faqs-section .main-page-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#faqs-section h4 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+#faqs-section .subtitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/**************************** CONTACT SECTION ***************************/
 #contact {
   padding: 50px 0;
 }
@@ -448,6 +618,47 @@ h5 {
   font-weight: bold;
   text-decoration: underline;
   font-size: 22px;
+}
+
+#contact-section {
+  padding: 20px 0;
+  font-family: "muse-500", Arial, sans-serif;
+}
+
+#contact-section .container .row .col-md-4 .card a img {
+  opacity: 0.7;
+  height: 200px;
+}
+
+#contact-section .container .row .col-md-4 .card a img:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+}
+
+#contact-section .container .row .col-md-4 .card .card-text {
+  line-height: 1.3;
+}
+
+#contact-section .main-page-title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#contact-section .main-page-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#contact-section h4 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+#contact-section .subtitle {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /**************************** FOOTER ***************************/
@@ -485,7 +696,6 @@ footer .container-fluid .copyright-area p a {
 @media only screen and (max-width: 414px) {
   #header #header-container {
     padding: 50px;
-    /* background: url('https://scontent.fatl1-2.fna.fbcdn.net/v/t1.0-9/68825287_10156737525079624_6109685953171816448_n.jpg?_nc_cat=106&_nc_oc=AQmpih3vN-HpBUYzQxAloksMHzo5FD7qj-dOARxM5MxWBtz5XFZlYPM5HAeLAnFlzPE&_nc_ht=scontent.fatl1-2.fna&oh=ebf06541ade10af267c2fb2e1236fe41&oe=5DD845A2'); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -525,7 +735,7 @@ footer .container-fluid .copyright-area p a {
     margin-top: 60px;
   }
 
-  .orders {
+  .contact-detail {
     margin-top: 60px;
   }
 
@@ -571,11 +781,11 @@ footer .container-fluid .copyright-area p a {
     line-height: 1.2;
   }
 
-  #event .container .row .col-md-4 .card {
+  #main-section .container .row .col-md-4 .card {
     margin-bottom: 35px;
   }
 
-  #event {
+  #main-section {
     padding-bottom: 0;
   }
 }
