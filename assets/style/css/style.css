@@ -133,6 +133,7 @@ ul {
   list-style: none;
 }
 
+
 /***************************** CUSTOM SETTINGS *****************************/
 html {
   background-color: #ffffff;
@@ -806,3 +807,5 @@ footer .container-fluid .copyright-area p a {
     height: 190px;
   }
 }
+
+
