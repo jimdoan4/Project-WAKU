@@ -663,7 +663,107 @@ footer .container-fluid .copyright-area p a {
 }
 
 /**************************** MEDIA-QUERY ***************************/
-/**************************** MEDIA-QUERY-IPHONE ***************************/
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .carousel-section {
+      margin-bottom: 1256px !important;
+    }
+    .nav-header {
+      font-size: 18px;
+    }
+    #header #header-container {
+      padding: 20px!important;
+      background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+      background-position: center;
+      background-repeat: no-repeat!important;
+      background-size: cover;
+      height: 530px!important;
+      width: 100% !important;
+    }
+    .skill:hover {
+      background: #72dbc9;
+      width: 327px;
+    }
+  
+    .skill img {
+      margin-top: 10px;
+      padding-right: 10px;
+    }
+    .how-section h4 {
+      font-size: 23px !important;
+    }
+}
+/**************************** MEDIA-QUERY-IPHONE 6, 7, 8 ***************************/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .carousel-section {
+      margin-bottom: 1146px !important;
+    }
+    .nav-header {
+      font-size: 21px;
+    }
+    #header #header-container {
+      padding: 20px!important;
+      background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+      background-position: center;
+      background-repeat: no-repeat!important;
+      background-size: cover;
+      height: 530px!important;
+      width: 100% !important;
+    }
+    .skill:hover {
+      background: #72dbc9;
+      width: 327px;
+    }
+  
+    .skill img {
+      margin-top: 10px;
+      padding-right: 10px;
+    }
+    .how-section h4 {
+      font-size: 23px !important;
+    }
+}
+
+/**************************** MEDIA-QUERY-IPHONE 6, 7, 8 ***************************/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .carousel-section {
+      margin-bottom: 1146px !important;
+    }
+    .nav-header {
+      font-size: 21px;
+    }
+    #header #header-container {
+      padding: 20px!important;
+      background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+      background-position: center;
+      background-repeat: no-repeat!important;
+      background-size: cover;
+      height: 530px!important;
+      width: 100% !important;
+    }
+    .skill:hover {
+      background: #72dbc9;
+      width: 327px;
+    }
+  
+    .skill img {
+      margin-top: 10px;
+      padding-right: 10px;
+    }
+    .how-section h4 {
+      font-size: 23px !important;
+    }
+}
+/**************************** MEDIA-QUERY-IPHONE X ***************************/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .carousel-section {
     margin-bottom: 1146px !important;
@@ -694,6 +794,49 @@ footer .container-fluid .copyright-area p a {
   }
 }
 
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #header #header-container {
+      padding: 20px!important;
+      background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+      background-position: center!important;
+      background-repeat: no-repeat!important;
+      background-size: cover!important; 
+      height: 530px!important;
+      width: 100% !important;
+    }
+    .card-img-top {
+      width: 7.4rem !important;
+      height: 200px;
+    }
+    .controls-top {
+      margin-top: 56px !important;
+    }
+    .skill:hover {
+      background: #72dbc9;
+      width: 110px !important;
+    }
+    .skill img {
+      margin-top: 10px;
+      padding-right: 10px !important;
+    }
+    .how-section h4 {
+      font-size: 22px !important;
+    }
+    .footer-contact {
+      margin-top: 60px !important;
+    }
+    .footer-plans {
+      margin-top: 60px !important;
+    }
+    .footer-faqs {
+      margin-top: 328px !important;
+    }
+}
 /**************************** MEDIA-QUERY-IPAD PRO ***************************/
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #header #header-container {
