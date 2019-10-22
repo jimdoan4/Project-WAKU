@@ -1,24 +1,25 @@
 /***************************** FONTS *****************************/
 @font-face {
-  font-family: 'muse-500';
-  src: url('../fonts/museosans-500.otf');
+  font-family: "muse-500";
+  src: url("../fonts/museosans-500.otf");
 }
 
 @font-face {
-  font-family: 'muse-300';
-  src: url('../fonts/museosansrounded-300-webfont.ttf'), url('../fonts/museosansrounded-300-webfont.woff'), url('../fonts/museosansrounded-300-webfont.svg');
+  font-family: "muse-300";
+  src: url("../fonts/museosansrounded-300-webfont.ttf"),
+    url("../fonts/museosansrounded-300-webfont.woff"),
+    url("../fonts/museosansrounded-300-webfont.svg");
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url('../fonts/OpenSans-Regular.ttf');
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'OpenSans-Semibold';
-  src: url('../fonts/OpenSans-SemiBold.ttf');
+  font-family: "OpenSans-Semibold";
+  src: url("../fonts/OpenSans-SemiBold.ttf");
 }
-
 
 html,
 body,
@@ -133,11 +134,9 @@ ul {
   list-style: none;
 }
 
-
 /***************************** CUSTOM SETTINGS *****************************/
 html {
   background-color: #ffffff;
-
 }
 
 body {
@@ -288,19 +287,19 @@ h5 {
 
 #header #header-container {
   padding: 50px;
-  background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg');
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
+  width: 100% !important;
 }
 
 .header-img-title {
-  font-family: 'Oleo Script', cursive;
+  font-family: "Oleo Script", cursive;
   font-size: 80px;
   color: #2a2b2b;
-
 }
 
 #header #header-container .text-container {
@@ -351,7 +350,6 @@ h5 {
   color: #5a6175;
   font-family: "OpenSans", Helvetica, Arial, sans-serif;
 }
-
 
 /********************************* EVENT/ABOUT ***********************************/
 #main-section {
@@ -405,7 +403,6 @@ h5 {
   margin-bottom: 20px;
 }
 
-
 /********************************* ABOUT SECTION ***********************************/
 #about-section {
   padding: 20px 0;
@@ -448,23 +445,11 @@ h5 {
   text-decoration: underline;
 }
 
-.about-me h4 {
-  font-family: "muse-500", Arial, sans-serif;
-  color: #61c0bd;
-  font-weight: bold;
-}
-
-.about-me {
-  font-family: "muse-500", Arial, sans-serif;
-  color: black;
-}
-
 .social i {
   font-size: 55px;
   color: #72dbc9;
   margin: 8px;
 }
-
 
 /********************************* PLANS SECTION ***********************************/
 #plans-section {
@@ -511,7 +496,6 @@ h5 {
 .plans {
   margin-bottom: 20px;
   border: 2px solid #dbdbdb;
-
 }
 
 .plans:hover {
@@ -561,7 +545,6 @@ h5 {
   text-decoration: underline;
 }
 
-
 /********************************* FAQS SECTION ***********************************/
 #faqs-section {
   padding: 20px 0;
@@ -603,7 +586,6 @@ h5 {
   font-weight: bold;
   text-decoration: underline;
 }
-
 
 /**************************** CONTACT SECTION ***************************/
 #contact {
@@ -681,6 +663,69 @@ footer .container-fluid .copyright-area p a {
 }
 
 /**************************** MEDIA-QUERY ***************************/
+/**************************** MEDIA-QUERY-IPHONE ***************************/
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .carousel-section {
+    margin-bottom: 1146px !important;
+  }
+  .nav-header {
+    font-size: 21px;
+  }
+  #header #header-container {
+    padding: 50px;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 100% !important;
+  }
+  .skill:hover {
+    background: #72dbc9;
+    width: 327px;
+  }
+
+  .skill img {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  .how-section h4 {
+    font-size: 23px !important;
+  }
+}
+
+/**************************** MEDIA-QUERY-IPAD PRO ***************************/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card-img-top {
+    width: 9.8rem !important;
+    height: 230px;
+  }
+  .controls-top {
+    margin-top: 56px !important;
+  }
+  .skill:hover {
+    background: #72dbc9;
+    width: 146px !important;
+  }
+  .skill img {
+    margin-top: 10px;
+    padding-right: 10px !important;
+  }
+  .how-section h4 {
+    font-size: 22px !important;
+  }
+  .footer-contact {
+    margin-top: 400px !important;
+  }
+  .footer-plans {
+    margin-top: 400px !important;
+  }
+  .footer-faqs {
+    margin-top: 648px !important;
+  }
+}
+
 @media only screen and (min-width: 300px) {
   #navbar {
     box-shadow: 0px 1px 3px #5a6175;
@@ -701,7 +746,7 @@ footer .container-fluid .copyright-area p a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100% !important;
     height: 480px;
   }
 
@@ -745,18 +790,6 @@ footer .container-fluid .copyright-area p a {
     border: 1px solid #dbdbdb;
   }
 
-  .ordering {
-    width: 240px;
-    height: 274px;
-    margin: auto;
-    margin-bottom: 15px;
-  }
-
-  .order-picture {
-    width: 239px;
-    height: 200px;
-  }
-
   .center {
     width: 270px;
     height: 150px;
@@ -791,21 +824,9 @@ footer .container-fluid .copyright-area p a {
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .about-jean-img {
     width: 320px;
     height: 320px;
   }
-
-  .order-picture {
-    width: 209px;
-    height: 200px;
-  }
-
-  .about-hers {
-    width: 289px;
-    height: 190px;
-  }
 }
-
-
