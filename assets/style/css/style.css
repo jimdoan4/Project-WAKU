@@ -672,13 +672,13 @@ footer .container-fluid .copyright-area p a {
     font-size: 21px;
   }
   #header #header-container {
-    padding: 50px;
-    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 530px;
+    padding: 20px!important;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 530px!important;
     width: 100% !important;
   }
   .skill:hover {
@@ -697,6 +697,16 @@ footer .container-fluid .copyright-area p a {
 
 /**************************** MEDIA-QUERY-IPAD PRO ***************************/
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #header #header-container {
+    padding: 60px!important;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 530px!important;
+    width: 100% !important;
+  }
   .card-img-top {
     width: 9.8rem !important;
     height: 230px;
