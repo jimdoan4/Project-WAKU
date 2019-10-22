@@ -675,7 +675,7 @@ footer .container-fluid .copyright-area p a {
     padding: 20px!important;
     background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg")!important;
     background-attachment: fixed!important;
-    background-position: center!important;
+    background-position: center;
     background-repeat: no-repeat!important;
     background-size: cover!important;
     height: 530px!important;
