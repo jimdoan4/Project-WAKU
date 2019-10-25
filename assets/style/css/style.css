@@ -294,6 +294,10 @@ h5 {
   width: 269px;
 }
 
+.sliding-button {
+  margin-top: 60px!important;
+}
+
 #header #header-container {
   padding: 50px;
   background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg");
@@ -702,7 +706,7 @@ footer .container-fluid .copyright-area p a {
       padding-right: 10px;
     }
     .meals-work-margin {
-      margin-top: 30px!important;
+      margin-top: 10px!important;
     }
     .how-section h4 {
       font-size: 23px !important;
@@ -738,7 +742,7 @@ footer .container-fluid .copyright-area p a {
       padding-right: 10px;
     }
     .meals-work-margin {
-      margin-top: 110px!important;
+      margin-top: 40px!important;
     }
     .how-section h4 {
       font-size: 23px !important;
@@ -775,7 +779,7 @@ footer .container-fluid .copyright-area p a {
       padding-right: 10px;
     }
     .meals-work-margin {
-      margin-top: 80px!important;
+      margin-top: 20px!important;
     }
     .how-section h4 {
       font-size: 23px !important;
@@ -808,7 +812,7 @@ footer .container-fluid .copyright-area p a {
     padding-right: 10px;
   }
   .meals-work-margin {
-    margin-top: 110px!important;
+    margin-top: 90px!important;
   }
   .how-section h4 {
     font-size: 23px !important;
