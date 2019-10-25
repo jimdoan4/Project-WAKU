@@ -285,6 +285,15 @@ h5 {
   padding-right: 10px;
 }
 
+#meals-work img{
+  margin-top: 10px;
+}
+
+#meals-work:hover {
+  background: #72dbc9;
+  width: 269px;
+}
+
 #header #header-container {
   padding: 50px;
   background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-meals-half-hour-1518191490.jpg");
@@ -495,7 +504,7 @@ h5 {
 
 .plans {
   margin-bottom: 20px;
-  border: 2px solid #dbdbdb;
+   border: 1.5px solid #dbdbdb; 
 }
 
 .plans:hover {
@@ -692,6 +701,9 @@ footer .container-fluid .copyright-area p a {
       margin-top: 10px;
       padding-right: 10px;
     }
+    .meals-work-margin {
+      margin-top: 30px!important;
+    }
     .how-section h4 {
       font-size: 23px !important;
     }
@@ -725,12 +737,15 @@ footer .container-fluid .copyright-area p a {
       margin-top: 10px;
       padding-right: 10px;
     }
+    .meals-work-margin {
+      margin-top: 110px!important;
+    }
     .how-section h4 {
       font-size: 23px !important;
     }
 }
 
-/**************************** MEDIA-QUERY-IPHONE 6, 7, 8 ***************************/
+/**************************** MEDIA-QUERY-IPHONE 6+, 7+, 8+ ***************************/
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
@@ -758,6 +773,9 @@ footer .container-fluid .copyright-area p a {
     .skill img {
       margin-top: 10px;
       padding-right: 10px;
+    }
+    .meals-work-margin {
+      margin-top: 80px!important;
     }
     .how-section h4 {
       font-size: 23px !important;
@@ -788,6 +806,9 @@ footer .container-fluid .copyright-area p a {
   .skill img {
     margin-top: 10px;
     padding-right: 10px;
+  }
+  .meals-work-margin {
+    margin-top: 110px!important;
   }
   .how-section h4 {
     font-size: 23px !important;
@@ -836,6 +857,12 @@ footer .container-fluid .copyright-area p a {
     .footer-faqs {
       margin-top: 328px !important;
     }
+    .meals-work-margin {
+      margin-top: 30px!important;
+    }
+    .sliding-button {
+      margin-top: 150px!important;
+    }
 }
 /**************************** MEDIA-QUERY-IPAD PRO ***************************/
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -874,6 +901,12 @@ footer .container-fluid .copyright-area p a {
   }
   .footer-faqs {
     margin-top: 648px !important;
+  }
+  .meals-work-margin {
+    margin-top: -10px!important;
+  }
+  .sliding-button {
+    margin-top: 90px!important;
   }
 }
 
